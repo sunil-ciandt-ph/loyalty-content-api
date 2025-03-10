@@ -23,7 +23,7 @@ describe('LoyaltyService', () => {
         {
           provide: ConfigService,
           useValue: {
-            get: jest.fn().mockReturnValue('https://your-drupal-cms.com/api'),
+            get: jest.fn().mockReturnValue('localhost:8080/jsonapi/node'),
           },
         },
       ],
